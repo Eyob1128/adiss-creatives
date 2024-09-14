@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eyob Brhanu - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+        }
+        header {
+            background-color: #1a1a1a;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #daa520;
+        }
+        header h1 {
+            color: #daa520;
+            font-size: 3rem;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #daa520;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+        section {
+            padding: 50px;
+            text-align: center;
+        }
+        section h2 {
+            color: #daa520;
+            font-size: 2rem;
+        }
+        .about, .portfolio {
+            margin: 30px 0;
+        }
+        .portfolio img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+            border: 3px solid #daa520;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #1a1a1a;
+            text-align: center;
+            padding: 20px;
+            border-top: 2px solid #daa520;
+        }
+        footer p {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Eyob Brhanu</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>Hello, I'm Eyob Brhanu, a passionate graphic designer with a love for drawing. My work focuses on blending creativity with functionality, crafting designs that stand out and communicate effectively. I enjoy using art to convey powerful messages and bring ideas to life.</p>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <h2>Portfolio</h2>
+        <div>
+            <img src="your-work1.jpg" alt="Design Work 1">
+            <img src="your-work2.jpg" alt="Design Work 2">
+            <img src="your-work3.jpg" alt="Design Work 3">
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out for design inquiries or collaborations!</p>
+        <p>Email: <a href="mailto:eyob@example.com" style="color: #daa520;">eyob@example.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Eyob Brhanu. All rights reserved.</p>
+    </footer>
+</body>
+</html>
